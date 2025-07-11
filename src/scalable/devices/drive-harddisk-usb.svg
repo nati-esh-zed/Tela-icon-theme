@@ -1,6 +1,20 @@
-<svg width="64" height="64" version="1.0" xmlns="http://www.w3.org/2000/svg">
- <rect transform="matrix(0,-1,-1,0,0,0)" x="-58" y="-53" width="52" height="42" rx="3" ry="3" fill="#666"/>
- <circle cx="32" cy="31" r="16" fill="#fff" paint-order="markers stroke fill"/>
- <circle cx="32" cy="31" r="14" fill="#7297ba" paint-order="markers stroke fill"/>
- <path d="m25 34h14v3h-14zm7-10 7 7h-14z" fill="#fff"/>
+<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
+  <!-- body -->
+  <rect x="5" y="5" width="54" height="54" rx="4" ry="4" fill="#5294e2" />
+  <!-- White base -->
+  <rect x="5" y="47" width="54" height="13" rx="4" ry="4" fill="#f4f4f4" />
+  <!-- Slot left -->
+  <rect x="12" y="52" width="24" height="4" rx="1" fill="#666" />
+  <!-- Slots right 1 -->
+  <rect x="40" y="52" width="4" height="4" rx="4" fill="#666" />
+  <!-- Slots right 2 -->
+  <rect x="48" y="52" width="4" height="4" rx="4" fill="#666" />
+  <!-- USB symbol -->
+  <g fill="#f4f4f4" transform="scale(1,.8)">
+    <circle cx="32" cy="31" r="16" paint-order="markers stroke fill" />
+    <circle cx="32" cy="31" r="14" fill="#5294e2" paint-order="markers stroke fill" />
+    <path
+      d="M8 0L5.5 4H7v5H4V7.73C4.62 7.37 5 6.71 5 6c0-1.1-.9-2-2-2s-2 .9-2 2c0 .71.38 1.37 1 1.73V9c0 2 2 2 2 2h3v1.27c-.62.36-1 1.02-1 1.73 0 1.1.9 2 2 2s2-.9 2-2c0-.71-.38-1.37-1-1.73V11h3s2 0 2-2V8c.554 0 1-.446 1-1V5c0-.554-.446-1-1-1h-2c-.554 0-1 .446-1 1v2c0 .554.446 1 1 1v1H9V4h1.5z"
+      transform="scale(1.2) translate(19 17)" />
+  </g>
 </svg>
